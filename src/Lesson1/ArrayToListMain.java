@@ -31,7 +31,6 @@ public class ArrayToListMain
         listOfStrings = new ArrayList<String>();
 
         Collections.addAll(listOfStrings, arrayOfStrings);
-        // Изменяет и массив, и ArrayList для проверки на взаимозависимость элементов?
         listOfStrings.add("5");
         arrayOfStrings[0] = "1";
         System.out.println("\nArray в ArrayList с помощью метода Collections.addAll()");

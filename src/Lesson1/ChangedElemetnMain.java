@@ -11,7 +11,7 @@ public class ChangedElemetnMain
     }
     public static char[] changedElemet(char[] array, int idx1, int idx2)
     {
-        if ((idx1>0 && idx1 <array.length) && (idx2>0 && idx2<array.length))
+        if ((idx1>=0 && idx1 <array.length) && (idx2>=0 && idx2<array.length))
         {
             char ch = array[idx1];
             array[idx1] = array[idx2];

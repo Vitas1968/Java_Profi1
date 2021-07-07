@@ -52,5 +52,6 @@ public class BoxFruit <T extends  Fruit>
     public void shiftToAnotherBox(BoxFruit<T> boxFruit)
     {
         boxFruit.getFruitList().addAll(boxFruit.getFruitList().size(),this.fruitList);
+        this.fruitList.clear();
     }
 }
